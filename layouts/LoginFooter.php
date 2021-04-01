@@ -29,6 +29,11 @@
 
 		<!--end::Global Theme Bundle -->
 
+    <!-- START:: PARTICLES JS  -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- END:: PARTICLES JS  -->
+
 		<!--begin::Page Scripts(used by this page) -->
 		<script src="assets/js/pages/custom/login/login-general.js" type="text/javascript"></script>
 

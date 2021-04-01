@@ -560,7 +560,7 @@ var KTDialog = function(options) {
             element = document.createElement("DIV");
             KTUtil.setHTML(element, the.options.message);
             
-            KTUtil.addClass(element, 'kt-dialog kt-dialog--shown');
+            // KTUtil.addClass(element, 'kt-dialog kt-dialog--shown');
             KTUtil.addClass(element, 'kt-dialog--' + the.options.state);
             KTUtil.addClass(element, 'kt-dialog--' + the.options.type); 
 

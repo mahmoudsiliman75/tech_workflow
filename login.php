@@ -8,18 +8,21 @@
   <!-- begin:: Page -->
   <div class="kt-grid kt-grid--ver kt-grid--root kt-page">
     <div class="kt-grid kt-grid--hor kt-grid--root  kt-login kt-login--v4 kt-login--signin" id="kt_login">
-      <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" style="background-image: url(assets/pics/login-bg.jpg); background-size: cover">
-        <div class="kt-grid__item kt-grid__item--fluid kt-login__wrapper">
+      <div id="particles-js" class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
+        <div class="kt-grid__item kt-grid__item--fluid kt-login__wrapper d-flex justify-content-center align-items-center">
           <div class="kt-login__container">
             <div class="kt-login__logo">
-              <a href="index.php" style="color: #fff;">
-								<h1 class="logo"> Wash <span> Box </span> </h1>
+              <a href="javascript:;   " style="color: #fff;">
+								<h1 class="logo mb-0"> 
+                  <!-- Tech <span> Workflow </span>  -->
+                  <img src="assets/pics/lock.png">
+                </h1>
 							</a>
             </div>
 
             <div class="kt-login__signin">
               <div class="kt-login__head">
-                <h3 class="kt-login__title">Login</h3>
+                <h3 class="kt-login__title mb-0">Login</h3>
               </div>
               <form class="kt-form" action="">
                 <div class="input-group">
