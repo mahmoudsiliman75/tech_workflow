@@ -13,6 +13,12 @@ $(document).ready( function () {
   });
   // END:: CHANGE PROFILE PAGE
 
+  // START: DELETE TASK
+  $(".user_checkbox").on('change', function() {
+    $(this).parent().parent().parent().css('display', 'none');
+  });
+  // END: DELETE TASK
+
   // START:: CHANGE OFFER PIC
   $(".offer-image").on('change', function() {
     if (this.files && this.files[0]) {

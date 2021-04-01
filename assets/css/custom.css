@@ -377,6 +377,18 @@ body::-webkit-scrollbar-thumb {
 }
 /*  END:: CUSTOMIZE SUBHEADER STYLE  */
 
+.accordion.accordion_urgent_tasks .kt-svg-icon g [fill]  {
+  fill: #ffb100
+}
+
+.accordion.accordion_day_tasks .kt-svg-icon g [fill]  {
+  fill: #0b435e
+
+}
+.accordion.accordion_overdue_tasks .kt-svg-icon g [fill]  {
+  fill: #f00
+}
+
 /* START:: CUSTOMIZE ASIDE STYLE */
 .kt-aside__brand {
   background-color: #163340;

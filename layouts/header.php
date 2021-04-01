@@ -51,7 +51,7 @@
 
 			<div class="kt-header-mobile__logo">
 				<a href="index.php">
-          <h3 class="logo"> Tech <span> CRM </span> </h3>
+          <h3 class="logo"> Tech <span> Workflow </span> </h3>
 				</a>
 			</div>
 
@@ -74,7 +74,7 @@
 					<div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
 						<div class="kt-aside__brand-logo">
 							<a href="index.php" style="color: #fff;">
-								<h3 class="logo"> Wash <span> Box </span> </h3>
+								<h3 class="logo"> Tech <span> Workflow </span> </h3>
 							</a>
 						</div>
 						<div class="kt-aside__brand-tools">
@@ -316,15 +316,15 @@
 								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
 									<div class="kt-header__topbar-user">
 										<span class="kt-header__topbar-username kt-hidden-mobile">محمود سليمان</span>
-										<img alt="Pic" class="kt-radius-100" src="assets/pics/user.jpg" />
+										<img alt="Pic" class="kt-radius-100" src="assets/pics/default.jpg" />
 									</div>
 								</div>
 								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-xl">
 
 									<!--START: HEAD -->
-									<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/pics/bg-2.jpg">
+									<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/pics/bg-4.jpg">
 										<div class="kt-user-card__avatar">
-											<img class="" alt="Pic" src="assets/pics/user.jpg" />
+											<img class="" alt="Pic" src="assets/pics/default.jpg" />
 										</div>
 										<div class="kt-user-card__name">
 											محمود سليمان

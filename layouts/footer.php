@@ -6,7 +6,7 @@
 							<div class="kt-footer__copyright" style="direction: ltr">
 								Made With 
                 <i class="la la-heart kt-font-danger mx-2 mt-1"></i> 
-                By <a href="https://www.technomasr.com/ calss="kt-link kt-link--state kt-link--info"> Technomasr </a> 
+                By <a href="https://www.technomasr.com/" target="_blanck" calss="kt-link kt-link--state kt-link--info"> Technomasr </a> 
                 <span class="mx-2">&copy;2021</span>
 							</div>
 						</div>
