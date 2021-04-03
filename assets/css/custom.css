@@ -2,6 +2,10 @@
 .w_auto {
   width: auto !important;
 }
+
+.simple_shadow {
+  box-shadow: 0 0 10px #b1b1b1;
+}
 /* END:: CUSTOM CLASSES */
 
 /* START:: GLOBAL STYLES */
@@ -700,7 +704,10 @@ input.btn.btn-label-brand.active {
 /* START:: CLIENT PROFILE PAGE STYLES */
 .user_card {
   margin-top: 60px;
+  padding-bottom: 20px;
   position: relative;
+  border-radius: 15px;
+
 }
 
 .user_card img {
@@ -712,7 +719,9 @@ input.btn.btn-label-brand.active {
   top: -60px;
   left: 50%;
   transform: translateX(-50%);
+  border: 3px solid #163340;
   border-radius: 50%;
+  box-shadow: 0 0 10px #b1b1b1;
 }
 
 .user_card .card-body {

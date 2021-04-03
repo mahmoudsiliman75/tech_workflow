@@ -306,7 +306,7 @@
                       <div class="info_box">
                         <span class="mx-2 kt-font-boldest"> مجموعة مهام 1 </span>
                         <span class="kt-badge kt-badge-outline kt-badge--danger  kt-badge--lg kt-badge--rounded p-2 rounded text-white w_auto">
-                          <span class="mr-2"> -4  </span> ساعات
+                          <span class="mr-2 kt-font-boldest"> -4  </span> ساعات
                         </span>
                         <span class="kt-badge kt-badge--danger kt-badge--lg kt-badge--rounded p-2 rounded text-white w_auto">
                           am 1 : 00 
