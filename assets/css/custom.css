@@ -3,6 +3,14 @@
   width: auto !important;
 }
 
+.w_100 {
+  width: 100% !important;
+}
+
+.no_border {
+  border: none;
+}
+
 .simple_shadow {
   box-shadow: 0 0 10px #b1b1b1;
 }

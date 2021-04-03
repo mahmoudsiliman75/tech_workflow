@@ -95,75 +95,15 @@
 									</a>
 								</li>
 
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <li class="kt-menu__item" aria-haspopup="false">
-									<a href="usersList.php" class="kt-menu__link ">
-                  <i class="kt-menu__link-icon la la-user la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text">إدارة المستخدمين</span>
+									<a href="ProjectsList.php" class="kt-menu__link ">
+										<i class="kt-menu__link-icon la la-folder la-2x"></i>
+										<span class="kt-menu__link-text">إدارة المشاريع</span>
 									</a>
 								</li>
 
-                <li class="kt-menu__item" aria-haspopup="false">
-									<a href="AddArea.php" class="kt-menu__link ">
-                  <i class="kt-menu__link-icon la la-map-marker la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text"> إضافة محافظة و منطقة </span>
-									</a>
-								</li>
 
-                <li class="kt-menu__item" aria-haspopup="false">
-									<a href="OffersAndPackages.php" class="kt-menu__link ">
-                  <i class="kt-menu__link-icon la la-star-o la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text">عروض و باقات</span>
-									</a>
-								</li>
 
-                <li class="kt-menu__item" aria-haspopup="false">
-									<a href="PriceList.php" class="kt-menu__link ">
-                  <i class="kt-menu__link-icon la la-dollar la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text"> قائمة الاسعار </span>
-									</a>
-								</li>
-
-                <li class="kt-menu__item" aria-haspopup="false">
-									<a href="ClientsList.php" class="kt-menu__link ">
-                  <i class="kt-menu__link-icon la la-users la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text"> العملاء </span>
-									</a>
-								</li>
-
-                <li class="kt-menu__item" aria-haspopup="false">
-									<a href="Requests.php" class="kt-menu__link ">
-                  <i class="kt-menu__link-icon la la-file-text-o la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text"> الطلبات </span>
-									</a>
-								</li>
-
-                <li class="kt-menu__item" aria-haspopup="false">
-									<a href="Messages.php" class="kt-menu__link ">
-                  <i class="kt-menu__link-icon la la-envelope-o la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text"> الرسائل </span>
-									</a>
-								</li>
 
 								<!-- <li class="kt-menu__item"  aria-haspopup="true">
 									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
