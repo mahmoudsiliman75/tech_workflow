@@ -1,4 +1,8 @@
 /* START:: CUSTOM CLASSES */
+.min_height_auto {
+  min-height: auto !important;
+}
+
 .w_auto {
   width: auto !important;
 }
