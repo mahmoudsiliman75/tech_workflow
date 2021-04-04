@@ -1,4 +1,16 @@
 /* START:: CUSTOM CLASSES */
+.brand_bg {
+  background-color: #b1cdff !important;
+}
+
+.danger_bg {
+  background-color: #ffb1bc !important;
+}
+
+.warning_bg {
+  background-color: #fffab1 !important;
+}
+
 .min_height_auto {
   min-height: auto !important;
 }
@@ -408,6 +420,18 @@ body::-webkit-scrollbar-thumb {
 
 }
 .accordion.accordion_overdue_tasks .kt-svg-icon g [fill]  {
+  fill: #f00
+}
+
+.accordion .group .card .card-title.warning_bg .kt-svg-icon g [fill]  {
+  fill: #ffb100
+}
+
+.accordion .group .card .card-title.brand_bg .kt-svg-icon g [fill]  {
+  fill: #0b435e
+
+}
+.accordion .group .card .card-title.danger_bg .kt-svg-icon g [fill]  {
   fill: #f00
 }
 
