@@ -4,8 +4,7 @@
 
   <!-- begin:: Content -->
   <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
-
-    <div class="kt-portlet">
+    <div class="kt-portlet min_height_auto">
       <div class="kt-portlet__body">
         <div class="kt-widget kt-widget--user-profile-3">
           <div class="kt-widget__top">

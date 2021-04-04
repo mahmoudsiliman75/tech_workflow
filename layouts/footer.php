@@ -109,6 +109,8 @@
     <script src="assets/js/form-repeater.js"></script>
     <!-- END:: FORM REBEATER SCRIPT -->
 
+    <script src="assets/js/chat.js"></script>
+
 		<script src="assets/js/custom.js"></script>
 	</body>
 
