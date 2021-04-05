@@ -21,7 +21,7 @@
                 <div class="container mb-4"> 
                   <div class="kt-widget4 mt-4">
 
-                  <div class="kt-portlet__head">
+                  <div class="kt-portlet__head no_border">
                     <form class="w_100">
                       <div class="row justify-content-center mt-4">
 
@@ -144,7 +144,7 @@
             <div class="kt-portlet border rounded min_height_auto">
               <div class="kt-portlet__head kt-shape-bg-color-1">
                 <div class="kt-portlet__head-label d-flex justify-content-center w-100">
-                  <h2 class="kt-portlet__head-title kt-font-boldest"> التعليقات </h2>
+                  <h2 class="kt-portlet__head-title kt-font-boldest"> الوصف </h2>
                 </div>
               </div>
 
@@ -169,7 +169,7 @@
                                           <img src="assets/pics/default.jpg"image">
                                         </span>
                                         <span class="kt-chat__username">
-                                          Jason Muller <br>
+                                          مستخدم 1 <br>
                                           <span class="kt-label-font-color-1"> 
                                             10-3-2021 <br>
                                             3:15
@@ -177,7 +177,7 @@
                                         </span>
                                       </div>
                                       <div class="kt-chat__text kt-bg-light-success">
-                                        How likely are you to recommend our company <br>to your friends and family?
+                                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا
                                       </div>
                                     </div>
 
@@ -195,7 +195,7 @@
                                         </span>
                                       </div>
                                       <div class="kt-chat__text kt-bg-light-brand">
-                                        Hey there, we’re just writing to let you know <br>that you’ve been subscribed to a repository on GitHub.
+                                        لنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا
                                       </div>
                                     </div>
 

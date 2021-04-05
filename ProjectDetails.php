@@ -56,8 +56,18 @@
                 <i class="flaticon-file-2"></i>
               </div>
               <div class="kt-widget__details">
-                <span class="kt-widget__title"><a href="ProjectAttachments.php">الملحقات</a></span>
+                <span class="kt-widget__title"><a href="ProjectAttachments.php">الوصف و الملحقات</a></span>
                 <span class="kt-widget__value">5</span>
+              </div>
+            </div>
+
+            <div class="kt-widget__item">
+              <div class="kt-widget__icon">
+                <i class="flaticon-file-2"></i>
+              </div>
+              <div class="kt-widget__details">
+                <span class="kt-widget__title"><a href="ProjectComments.php">التعليقات</a></span>
+                <span class="kt-widget__value">2</span>
               </div>
             </div>
 
