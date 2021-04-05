@@ -78,23 +78,6 @@ $(document).ready( function () {
   });
   // START:: SELECT2 OPTIONS
 
-  // START:: DATATABLES OPTIONS
-  $('.standard').DataTable({
-    "oLanguage": {
-      "sSearch": "",
-    },
-    language: {
-      searchPlaceholder: "إبحث هنا",
-      'paginate': {
-        'previous': 'السابق',
-        'next': 'التالى'
-      },
-      "lengthMenu": "عرض _MENU_ فى الصفحة",
-      "info": "عرض  _PAGE_ من _PAGES_ صفحات",
-    },
-  });
-  // END:: DATATABLES OPTIONS
-
   //  START:: SWEET ALERT
   $('.done').click(function(e) {
     swal.fire({
@@ -213,17 +196,6 @@ $(document).ready( function () {
     })
   });
   // END:: SWEET ALERT
-
-  // START:: TEXT EDITOR
-  ClassicEditor
-  .create( document.querySelector( '.default' ) )
-  .then( editor => {
-    console.log( editor );
-  } )
-  .catch( error => {
-    console.error( error );
-  } );
-  // END:: TEXT EDITOR
 
   // START:: CALC THE REMAINING OF NEW DEAL
   let calcTheRemaining = () => {

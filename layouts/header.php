@@ -256,17 +256,35 @@
 									</span>
 								</div>
 
-								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-lg">
+								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-lg p-4">
 
-                  <ul class="list-unstyled">
-                    <li class="alert alert-solid-warning alert-bold my-2">
-                      <a href="#" class="alert-text"> اشعار 1 </a>
-                    </li>
+                <div class="kt-demo">
+                  <div class="kt-demo__preview">
+                    <div class="kt-list-timeline">
+                      <div class="kt-list-timeline__items">
+                        <div class="kt-list-timeline__item my-3">
+                          <span class="kt-list-timeline__badge kt-list-timeline__badge--info"></span>
+                          <span class="kt-list-timeline__text"> <a href="#"> إشعار 1 </a> </span>
+                        </div>
 
-                    <li class="alert alert-solid-warning alert-bold my-2">
-                      <a href="#" class="alert-text"> اشعار 2 </a>
-                    </li>
-                  </ul>
+                        <div class="kt-list-timeline__item my-3">
+                          <span class="kt-list-timeline__badge kt-list-timeline__badge--info"></span>
+                          <span class="kt-list-timeline__text"> <a href="#"> إشعار 2 </a> </span>
+                        </div>
+
+                        <div class="kt-list-timeline__item my-3">
+                          <span class="kt-list-timeline__badge kt-list-timeline__badge--info"></span>
+                          <span class="kt-list-timeline__text"> <a href="#"> إشعار 3 </a> </span>
+                        </div>
+
+                        <div class="kt-list-timeline__item my-3">
+                          <span class="kt-list-timeline__badge kt-list-timeline__badge--info"></span>
+                          <span class="kt-list-timeline__text"> <a href="#"> إشعار 4 </a> </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
 								</div>
 							</div>
