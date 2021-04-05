@@ -84,16 +84,16 @@
                         <div id="collapse_project_1" class="collapse show" aria-labelledby="accordion_project_1" data-parent="#project_accordion">
                           <div class="card-body p-4">
                             <div class="kt-notification-v2">
-                              <span class="kt-notification-v2__item border rounded d-flex alig-items-center justify-content-around">
+                              <span class="kt-notification-v2__item border rounded d-flex alig-items-center justify-content-center">
                                 <div class="btn_box mx-3">
-                                  <button class="btn btn-dark btn-sm rounded mx-1">بدء</button>
-                                  <button class="btn btn-dark btn-sm rounded mx-1">إنهاء</button>
+                                  <button class="start_btn btn btn-dark btn-sm rounded mx-1">بدء</button>
+                                  <button class="finish_btn btn btn-dark btn-sm rounded mx-1">إنهاء</button>
                                 </div>
                               </span>
 
-                              <span class="kt-notification-v2__item border-bottom">
+                              <span class="kt-notification-v2__item border-bottom data">
                                 <div class="kt-notification-v2">
-                                  <label class="kt-checkbox kt-checkbox--brand">
+                                  <label class="kt-checkbox kt-checkbox--info">
                                     <input type="checkbox" class="user_checkbox">
                                     <span></span>
                                   </label>
@@ -108,9 +108,9 @@
                                 </div>
                               </span>
 
-                              <span class="kt-notification-v2__item border-bottom">
+                              <span class="kt-notification-v2__item border-bottom data">
                                 <div class="kt-notification-v2">
-                                  <label class="kt-checkbox kt-checkbox--brand">
+                                  <label class="kt-checkbox kt-checkbox--info">
                                     <input type="checkbox" class="user_checkbox">
                                     <span></span>
                                   </label>
@@ -118,6 +118,23 @@
                                 <div class="kt-notification-v2__itek-wrapper">
                                   <div class="kt-notification-v2__item-title">
                                     مهمه 2
+                                  </div>
+                                  <div class="kt-notification-v2__item-desc">
+                                    شرح توضيحي
+                                  </div>
+                                </div>
+                              </span>
+
+                              <span class="kt-notification-v2__item border-bottom data">
+                                <div class="kt-notification-v2">
+                                  <label class="kt-checkbox kt-checkbox--info">
+                                    <input type="checkbox" class="user_checkbox">
+                                    <span></span>
+                                  </label>
+                                </div>
+                                <div class="kt-notification-v2__itek-wrapper">
+                                  <div class="kt-notification-v2__item-title">
+                                    مهمه 3
                                   </div>
                                   <div class="kt-notification-v2__item-desc">
                                     شرح توضيحي
@@ -150,15 +167,14 @@
                         <div id="collapse_project_2" class="collapse" aria-labelledby="accordion_project_2" data-parent="#project_accordion">
                           <div class="card-body p-4">
                             <div class="kt-notification-v2">
-
-                              <span class="kt-notification-v2__item border rounded d-flex alig-items-center justify-content-around">
+                              <span class="kt-notification-v2__item border rounded d-flex alig-items-center justify-content-center">
                                 <div class="btn_box mx-3">
-                                  <button class="btn btn-dark btn-sm rounded mx-1">بدء</button>
-                                  <button class="btn btn-dark btn-sm rounded mx-1">إنهاء</button>
+                                  <button class="start_btn btn btn-dark btn-sm rounded mx-1">بدء</button>
+                                  <button class="finish_btn btn btn-dark btn-sm rounded mx-1">إنهاء</button>
                                 </div>
                               </span>
 
-                              <span class="kt-notification-v2__item border-bottom">
+                              <span class="kt-notification-v2__item border-bottom data">
                                 <div class="kt-notification-v2">
                                   <label class="kt-checkbox kt-checkbox--warning">
                                     <input type="checkbox" class="user_checkbox">
@@ -168,6 +184,40 @@
                                 <div class="kt-notification-v2__itek-wrapper">
                                   <div class="kt-notification-v2__item-title">
                                     مهمه 1
+                                  </div>
+                                  <div class="kt-notification-v2__item-desc">
+                                    شرح توضيحي
+                                  </div>
+                                </div>
+                              </span>
+
+                              <span class="kt-notification-v2__item border-bottom data">
+                                <div class="kt-notification-v2">
+                                  <label class="kt-checkbox kt-checkbox--warning">
+                                    <input type="checkbox" class="user_checkbox">
+                                    <span></span>
+                                  </label>
+                                </div>
+                                <div class="kt-notification-v2__itek-wrapper">
+                                  <div class="kt-notification-v2__item-title">
+                                    مهمه 2
+                                  </div>
+                                  <div class="kt-notification-v2__item-desc">
+                                    شرح توضيحي
+                                  </div>
+                                </div>
+                              </span>
+
+                              <span class="kt-notification-v2__item border-bottom data">
+                                <div class="kt-notification-v2">
+                                  <label class="kt-checkbox kt-checkbox--warning">
+                                    <input type="checkbox" class="user_checkbox">
+                                    <span></span>
+                                  </label>
+                                </div>
+                                <div class="kt-notification-v2__itek-wrapper">
+                                  <div class="kt-notification-v2__item-title">
+                                    مهمه 3
                                   </div>
                                   <div class="kt-notification-v2__item-desc">
                                     شرح توضيحي
@@ -203,15 +253,14 @@
                         <div id="collapse_project_3" class="collapse" aria-labelledby="accordion_project_3" data-parent="#project_accordion">
                           <div class="card-body p-4">
                             <div class="kt-notification-v2">
-
-                              <span class="kt-notification-v2__item border rounded d-flex alig-items-center justify-content-around">
+                              <span class="kt-notification-v2__item border rounded d-flex alig-items-center justify-content-center">
                                 <div class="btn_box mx-3">
-                                  <button class="btn btn-dark btn-sm rounded mx-1">بدء</button>
-                                  <button class="btn btn-dark btn-sm rounded mx-1">إنهاء</button>
+                                  <button class="start_btn btn btn-dark btn-sm rounded mx-1">بدء</button>
+                                  <button class="finish_btn btn btn-dark btn-sm rounded mx-1">إنهاء</button>
                                 </div>
                               </span>
 
-                              <span class="kt-notification-v2__item border-bottom">
+                              <span class="kt-notification-v2__item border-bottom data">
                                 <div class="kt-notification-v2">
                                   <label class="kt-checkbox kt-checkbox--danger">
                                     <input type="checkbox" class="user_checkbox">
@@ -221,6 +270,40 @@
                                 <div class="kt-notification-v2__itek-wrapper">
                                   <div class="kt-notification-v2__item-title">
                                     مهمه 1
+                                  </div>
+                                  <div class="kt-notification-v2__item-desc">
+                                    شرح توضيحي
+                                  </div>
+                                </div>
+                              </span>
+
+                              <span class="kt-notification-v2__item border-bottom data">
+                                <div class="kt-notification-v2">
+                                  <label class="kt-checkbox kt-checkbox--danger">
+                                    <input type="checkbox" class="user_checkbox">
+                                    <span></span>
+                                  </label>
+                                </div>
+                                <div class="kt-notification-v2__itek-wrapper">
+                                  <div class="kt-notification-v2__item-title">
+                                    مهمه 2
+                                  </div>
+                                  <div class="kt-notification-v2__item-desc">
+                                    شرح توضيحي
+                                  </div>
+                                </div>
+                              </span>
+
+                              <span class="kt-notification-v2__item border-bottom data">
+                                <div class="kt-notification-v2">
+                                  <label class="kt-checkbox kt-checkbox--danger">
+                                    <input type="checkbox" class="user_checkbox">
+                                    <span></span>
+                                  </label>
+                                </div>
+                                <div class="kt-notification-v2__itek-wrapper">
+                                  <div class="kt-notification-v2__item-title">
+                                    مهمه 3
                                   </div>
                                   <div class="kt-notification-v2__item-desc">
                                     شرح توضيحي

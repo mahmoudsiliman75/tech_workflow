@@ -13,9 +13,24 @@ $(document).ready( function () {
   });
   // END:: CHANGE PROFILE PAGE
 
+  // START:: ENABLE TASKS
+  $(".user_checkbox").attr('disabled', 'true');
+  $(".finish_btn").attr('disabled', 'true');
+
+  $(".start_btn").on('click', function() {
+    $(this).attr('disabled', 'true');
+    $(this).siblings().removeAttr('disabled');
+    $(this).parent().parent().parent().children('.data').children('.kt-notification-v2').children('.kt-checkbox').children('.user_checkbox').removeAttr('disabled');
+  });
+  // END:: ENABLE TASKS
+
   // START: DELETE TASK
   $(".user_checkbox").on('change', function() {
     $(this).parent().parent().parent().css('display', 'none');
+  });
+
+  $('.finish_btn').on('click', function() {
+    $(this).parent().parent().parent().parent().parent().parent().css('display', 'none');
   });
   // END: DELETE TASK
 
