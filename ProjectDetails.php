@@ -63,7 +63,7 @@
 
             <div class="kt-widget__item">
               <div class="kt-widget__icon">
-                <i class="flaticon-file-2"></i>
+                <i class="flaticon-chat-1"></i>
               </div>
               <div class="kt-widget__details">
                 <span class="kt-widget__title"><a href="ProjectComments.php">التعليقات</a></span>

@@ -41,7 +41,7 @@
           </div>
 
           <!--START: PROJECTS DATATABLE-->
-          <div class="kt-portlet__body kt-portlet__body--fit">
+          <!-- <div class="kt-portlet__body kt-portlet__body--fit">
 
             <table class="standard table table-responsive-sm w_100">
               <thead class="thead-dark">
@@ -108,8 +108,75 @@
               </tbody>
             </table>
 
-          </div>
+          </div> -->
           <!--END: PROJECTS DATATABLE-->
+
+          <div class="container">
+            <table class="table mt-5">
+              <thead class="thead-dark">
+                <tr>
+                  <th style="width: 30px;">#</th>
+                  <th class="text-center"> المشروع </th>
+                  <th class="text-center"> تاريخ الانتهاء </th>
+                  <th class="text-center"> الحالة </th>
+                  <th class="action text-center">إجراء</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr class="text-center">
+                  <td>1</td>
+                  <td> مشروع 1 </td>
+                  <td> 2021 - 4 - 15 </td>
+                  <td>
+                    <span class="kt-badge kt-badge--unified-info kt-badge--lg kt-badge--rounded kt-badge--bold p-2 rounded w_auto">
+                      جارى العمل
+                    </span>
+                  </td>
+
+                  <td>
+                    <a href="ProjectDetails.php" class="btn btn-outline-success btn-icon btn-circle" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تفاصيل المشروع">
+                      <i class="la la-hdd-o"></i>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="text-center">
+                  <td>2</td>
+                  <td> مشروع 2 </td>
+                  <td> 2021 - 4 - 15 </td>
+                  <td>
+                    <span class="kt-badge kt-badge--unified-danger kt-badge--lg kt-badge--rounded kt-badge--bold p-2 rounded w_auto">
+                      متاخر
+                    </span>
+                  </td>
+
+                  <td>
+                    <a href="ProjectDetails.php" class="btn btn-outline-success btn-icon btn-circle" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تفاصيل المشروع">
+                      <i class="la la-hdd-o"></i>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="text-center">
+                  <td>3</td>
+                  <td> مشروع 3 </td>
+                  <td> 2021 - 4 - 15 </td>
+                  <td>
+                    <span class="kt-badge kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold p-2 rounded w_auto">
+                      منتهى
+                    </span>
+                  </td>
+
+                  <td>
+                    <a href="ProjectDetails.php" class="btn btn-outline-success btn-icon btn-circle" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تفاصيل المشروع">
+                      <i class="la la-hdd-o"></i>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
         </div> 
       </div>
