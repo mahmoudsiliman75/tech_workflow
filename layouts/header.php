@@ -102,6 +102,13 @@
 									</a>
 								</li>
 
+                <li class="kt-menu__item" aria-haspopup="false">
+									<a href="TasksManagement.php" class="kt-menu__link ">
+										<i class="kt-menu__link-icon la la-clipboard la-2x"></i>
+										<span class="kt-menu__link-text">إدارة المهام</span>
+									</a>
+								</li>
+
 
 
 
