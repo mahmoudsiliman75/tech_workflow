@@ -1,4 +1,12 @@
 $(document).ready( function () {
+  $('.project_files').fileinput();
+
+  // START:: TINY MCE
+  tinymce.init({
+    selector: '.text_editor'
+  });
+  // END:: TINY MCE
+
   // START:: CHANGE PROFILE PAGE
   $(".image").on('change', function() {
     if (this.files && this.files[0]) {
@@ -53,9 +61,13 @@ $(document).ready( function () {
   });
 
   // START:: SELECT2 OPTIONS
-  $('#permissions_select2_3').select2({
-  placeholder: "اختار الصلاحيات",
+  $('#res_select2_3').select2({
+  placeholder: "اختار مسؤل التنفيذ",
   });
+
+  $('#test_res_select2_3').select2({
+    placeholder: "اختار مسؤل الاختبار",
+    });
 
   $('#services_select2_3').select2({
   placeholder: "اختار الخدمات",

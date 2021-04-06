@@ -38,9 +38,11 @@
 		<link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
 		<!--end::Global Theme Styles -->
 
+    <link href="assets/plugins/fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css" />
+
 		<link rel="shortcut icon" href="assets/pics/fav-icon.png" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap">
-	</head>
+  </head>
 	<!-- END::HEAD -->
 
 	<!-- START::BODY -->
@@ -338,17 +340,6 @@
 											<div class="kt-notification__item-details">
 												<div class="kt-notification__item-title kt-font-bold">
 													تعديل الصفحة الشخصية
-												</div>
-											</div>
-										</a>
-
-										<a href="#" class="kt-notification__item">
-											<div class="kt-notification__item-icon">
-												<i class="flaticon2-mail kt-font-warning"></i>
-											</div>
-											<div class="kt-notification__item-details">
-												<div class="kt-notification__item-title kt-font-bold">
-													صندوق الوارد
 												</div>
 											</div>
 										</a>

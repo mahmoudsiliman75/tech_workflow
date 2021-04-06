@@ -1,37 +1,3 @@
-/* START:: CUSTOM CLASSES */
-.brand_bg {
-  background-color: #b1cdff !important;
-}
-
-.danger_bg {
-  background-color: #ffb1bc !important;
-}
-
-.warning_bg {
-  background-color: #fffab1 !important;
-}
-
-.min_height_auto {
-  min-height: auto !important;
-}
-
-.w_auto {
-  width: auto !important;
-}
-
-.w_100 {
-  width: 100% !important;
-}
-
-.no_border {
-  border: none;
-}
-
-.simple_shadow {
-  box-shadow: 0 0 10px #b1b1b1;
-}
-/* END:: CUSTOM CLASSES */
-
 /* START:: GLOBAL STYLES */
 body{
   font-family: 'Cairo', sans-serif;
@@ -51,9 +17,37 @@ body::-webkit-scrollbar-thumb {
   z-index: 1;
 }
 
-.ck.ck-editor {
+/* START:: FILE INPUT STYLES */
+.file-drop-disabled {
+  display: flex !important;
+}
+
+.kv-upload-progress,
+.file-caption,
+.fileinput-cancel,
+.file-actions {
+  display: none;
+}
+
+.btn-file,
+.fileinput-remove {
+  margin-top: 12px;
+}
+
+.file-preview-image {
   width: 100% !important;
 }
+/* END:: FILE INPUT STYLES */
+
+/* START:: TINY EMC STYLES */
+.mce-panel {
+  width: 100% !important;
+}
+
+div.mce-edit-area {
+  height: 250px !important;
+}
+/* END:: TINY EMC STYLES */
 
 .kt-portlet .kt-portlet__head .kt-portlet__head-label .btns-box a,
 .kt-portlet .kt-portlet__head .kt-portlet__head-label .btns-box button {
@@ -79,6 +73,15 @@ body::-webkit-scrollbar-thumb {
 
 .bootstrap-select .dropdown-toggle .filter-option {
   text-align: start;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered .select2-search__field {
+  width: auto !important;
+  text-align: right;
+}
+
+.select2-container .select2-search--inline {
+  float: right !important;
 }
 /* END:: GLOBAL STYLES */
 
@@ -764,3 +767,40 @@ input.btn.btn-label-brand.active {
   margin-top: 70px;
 }
 /* END:: CLIENT PROFILE PAGE STYLES */
+
+
+
+
+/* START:: CUSTOM CLASSES */
+.brand_bg {
+  background-color: #b1cdff !important;
+}
+
+.danger_bg {
+  background-color: #ffb1bc !important;
+}
+
+.warning_bg {
+  background-color: #fffab1 !important;
+}
+
+.min_height_auto {
+  min-height: auto !important;
+}
+
+.w_auto {
+  width: auto !important;
+}
+
+.w_100 {
+  width: 100% !important;
+}
+
+.no_border {
+  border: none;
+}
+
+.simple_shadow {
+  box-shadow: 0 0 10px #b1b1b1;
+}
+/* END:: CUSTOM CLASSES */

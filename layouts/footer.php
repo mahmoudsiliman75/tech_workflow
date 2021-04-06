@@ -111,6 +111,11 @@
 
     <script src="assets/js/chat.js"></script>
 
+    <script src="assets/plugins/tinymce/tinymce.min.js"></script>
+
+    <script src="assets/plugins/fileinput/js/plugins/purify.min.js"></script>
+    <script src="assets/plugins/fileinput/js/fileinput.js"></script>
+
 		<script src="assets/js/custom.js"></script>
 	</body>
 
