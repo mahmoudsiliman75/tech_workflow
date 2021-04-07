@@ -12,8 +12,14 @@
             <!-- START:: PROJECT TASKS SECTION -->
             <div class="kt-portlet border rounded project_tasks">
               <div class="kt-portlet__head kt-shape-bg-color-1">
-                <div class="kt-portlet__head-label d-flex justify-content-center w-100">
+                <div class="kt-portlet__head-label d-flex align-items-center justify-content-between w-100">
                   <h2 class="kt-portlet__head-title kt-font-boldest"> المهام </h2>
+                
+                  <div class="btns-box">
+                    <a href="AddTask.php" type="button" class="btn btn-outline-success mx-1 mb-1"> 
+                      <i class="kt-menu__link-icon la la-clipboard la-2x"></i>  اضافة مهمة  
+                    </a>
+                  </div>
                 </div>
               </div>
 

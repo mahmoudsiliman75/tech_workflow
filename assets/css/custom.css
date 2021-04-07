@@ -803,4 +803,8 @@ input.btn.btn-label-brand.active {
 .simple_shadow {
   box-shadow: 0 0 10px #b1b1b1;
 }
+
+.input_style {
+  width: 100%;
+}
 /* END:: CUSTOM CLASSES */
