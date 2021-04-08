@@ -72,7 +72,7 @@
 
             <div class="form-group col-12 col-md-4">
               <div class="row">
-                <label class="col-form-label col-12"> المسؤل عن التنفيذ </label>
+                <label class="col-form-label col-12"> المسؤل عن التنفيذ <span class="kt-font-danger fs_15"> * </span> </label>
                 <div class="input-group-prepend col-12">
                   <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
                   <select class="form-control kt-select2" id="res_select2_3" name="param" multiple="multiple" placeholder="اختار الصلاحيات">
@@ -97,7 +97,7 @@
               </div>
             </div>
 
-            <div class="form-group col-12 col-md-4">
+            <div class="form-group col-12 col-md-4 mb-2">
               <div class="row">
                 <label class="col-form-label col-12"> تاريخ الانتهاء </label>
                 <div class="input-group-prepend col-12">
@@ -106,7 +106,10 @@
                       <i class="la la-calendar-check-o" style="font-size: 18px"></i>
                     </span>
                   </div>  
-                  <input type="text" class="form-control" readonly placeholder="اختار تاريخ الانتهاء" id="kt_datepicker_2" />              
+                  <input type="text" class="form-control is-invalid" readonly placeholder="اختار تاريخ الانتهاء" id="kt_datepicker_2" />              
+                </div>
+                <div class="invalid-feedback d-block pl-2">
+                  يجب تحديد تاريخ انتهاء  
                 </div>
               </div>
             </div>
